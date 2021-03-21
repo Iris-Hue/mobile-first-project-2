@@ -1,20 +1,30 @@
 /* Base Styles  / Mobile View */
-body {
-  background-color: #e4e7eb;
-  font-size: 18px;
-  display:block;
-  font-family: 'Crimson Text', serif;
+*{box-sizing: border-box;
 }
-header {
+
+body {
+  background-color: #f3f4f6;
+  font-size: 18px;
+  line-height: 1.6
+  font-family: 'Crimson Text', serif;
+  color: #26126a
+
+}
+.main-header {
   background-color: #294969;
   color: ghostwhite;
   padding: 10px 15px 20px 25px:
 }
+.main-nav {
+  padding: 2rem 0 2rem;
 
-
-h1 {
-  text-align: center;
 }
+.wrapper {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+
 
 
 
@@ -26,7 +36,9 @@ h1 {
 /* media queries/ tablet veiw */
 
 @media (min-width: 768px){
-
+  .wrapper {
+    width: 70%;
+    margin: 0 auto;
 }
 
 
