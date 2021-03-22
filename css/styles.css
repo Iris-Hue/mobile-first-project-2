@@ -5,36 +5,44 @@
 body {
   background-color: #e4e7eb;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.5;
   font-family: 'Crimson Text', serif;
   margin: 0;
-  padding: 1.5rem 0 1.5rem;
+  padding: 1.5rem 0 1.5rem 0;
   color: #4a4a69
+  max-width: 100%;
 
 }
 h1 {
   font-size: 32px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
+  padding: 10px 5px 20px 15px;
+  display: block;
 }
 .main-nav {
-  text-align: right;
-  display: inline;
-  width: 30;
-  padding-left: 2rem;
-  background-color: ghostwhite;
+  text-align: center;
+  /*display: inline-block;*/
+  /*width: 30;*/
+  padding: 10px;
+  /*margin-top: 10px;*/
+  background-color: pink;
   text-transform: uppercase;
   font-weight: bold;
+  list-style-type: none;
 }
 .bio {
-  text-align: left;
+  text-align: center;
+  line-height- 1.5;
 }
 
-/*
+
 ul li {
+  width: 30%;
 
 
 }
+/*
 .main-header {
   text-align: center;
   background-color: #294969;
