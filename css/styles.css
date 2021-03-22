@@ -7,7 +7,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   font-family: 'Crimson Text', serif;
-  margin: 0;
+  margin: 30px;
   padding: 1.5rem 0 1.5rem 0;
   color: #4a4a69
   max-width: 100%;
@@ -26,41 +26,42 @@ h1 {
   /*width: 30;*/
   padding: 10px;
   /*margin-top: 10px;*/
-  background-color: pink;
   text-transform: uppercase;
   font-weight: bold;
   list-style-type: none;
 }
 .bio {
   text-align: center;
-  line-height- 1.5;
+  line-height: 1.5;
+  padding: 10px;
+  border: 5px;
+  margin: 5px;
+  width: 100%;
+}
+.photo {
+  max-width: 70%;
+  margin: auto;
 }
 
-
-ul li {
-  width: 30%;
-
-
-}
-/*
-.main-header {
-  text-align: center;
-  background-color: #294969;
-  color: ghostwhite;
-
+nav li {
+  background-color: ghostwhite;
 }
 
+/*===========main section==========*/
+/*==========main section==========*/
+  h2 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  h3 {
+    text-align: center;
+  }
+  main {
+    background-color: #fff;
+  }
+  .contact {
 
-}
-.wrapper {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-*/
-
-
-
-
+  }
 
 
 
