@@ -22,12 +22,12 @@ h1 {
 }
 .main-nav {
   text-align: center;
-
   /*display: inline-block;*/
   /*width: 30;*/
   padding: 10px;
   /*margin-top: 10px;*/
   text-transform: uppercase;
+  color: #4a4a69
   font-weight: bold;
   list-style-type: none;
 }
@@ -63,7 +63,6 @@ nav li {
   h2 {
     text-align: center;
     text-transform: capitalize;
-    color: firebrick;
   }
   h3 {
     text-align: center;
@@ -88,6 +87,17 @@ nav {
   hr {
     width: 80%;
   }
+  footer {
+    padding: 1rem;
+    border-top: 1px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .chat {
+    color: red;
+  }
+
 
 
 
