@@ -1,6 +1,6 @@
 /* Base Styles  / Mobile View */
-*box-sizing: border-box; {
-}
+/*box-sizing: border-box;*/
+
 
 body {
   background-color: #fafafa;
@@ -78,6 +78,7 @@ nav li {
   }
   .contact li {
     list-style-type: none;
+
   }
 nav {
     text-align: right;
