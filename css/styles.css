@@ -27,7 +27,7 @@ h1 {
   padding: 10px;
   /*margin-top: 10px;*/
   text-transform: uppercase;
-  color: #4a4a69
+  color: #4a4a69;
   font-weight: bold;
   list-style-type: none;
 }
@@ -98,20 +98,54 @@ nav {
     color: red;
   }
 
-
-
-
-
-
-
-
 /* media queries/ tablet veiw */
 
-/*@media (min-width: 768px){
-  .wrapper {
-    width: 70%;
-    margin: 0 auto;
+@media (min-width: 768px) {
+
+
+
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .photo {
+    display: flex;
+    flex-basis: auto;
+    order: 1;
+    flex-grow: 2;
 }
+.bio {
+  display: flex;
+  flex-basis: auto;
+  order: 2;
+  flex-grow: 1;
+
+main {
+  display: flex;
+  flex-basis: auto;
+  order: 2;
+  flex-grow: 2;
+  flex-direction: row;
+  align-items: center;
+}
+
+  }
+
+
+
+
+  /*.wrapper {
+    width: 70%;
+    margin: 0 auto;*/
 
 
 /*desktop view */
