@@ -109,9 +109,10 @@ nav {
     display: flex;
     justify-content: center;
   }
-
-
-
+  h2 {
+    text-transform: uppercase;
+    padding-top: 40px;
+  }
 
   nav ul {
     display: flex;
@@ -121,25 +122,18 @@ nav {
   }
   .photo {
     display: flex;
-    flex-basis: auto;
+    flex-basis: 100%;
     flex-direction: row-reverse;
+    margin-right: 5px;
 }
 
 .bio {
   display: flex;
   flex-basis: 100%;
   flex-grow: 60%;
-}
+  padding-right: 30px;
 
 }
-#skills  {
-  padding: 5px;
-
-
-}
-
-
-
 
 
 #portfolio {
@@ -150,12 +144,17 @@ nav {
 }
 #portfolio div {
   flex-basis: 48%;
-
+  padding-right: 10px;
+  
   }
-
+.contact p {
+  padding: 0 70px 0 70px;
 }
 
-
+.contact li {
+  text-align: center;
+}
+}
 
 
 
