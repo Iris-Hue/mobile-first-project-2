@@ -1,5 +1,5 @@
 /* Base Styles  / Mobile View */
-box-sizing: border-box;
+
 
 
 body {
@@ -94,8 +94,8 @@ nav li {
     background-color: #e4e7eb;
   }
   .contact li {
+    display:block;
     list-style-type: none;
-
   }
 nav {
     text-align: right;
@@ -162,13 +162,12 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 #portfolio div {
   flex-basis: 48%;
   padding-right: 10px;
-
   }
+
 .contact p {
   padding: 0 70px 0 70px;
 }
@@ -198,29 +197,36 @@ a:link {
 
 @media (min-width: 1024px) {
 
-  h1,
-  nav ul, {
-    display: inline-flex;
-
+  header, li {
+    display: flex;
+    justify-content: flex-end;
   }
-
   h1 {
+    display: flex;
+    justify-content: left;
+    flex-basis: 70%;
+  }
+  nav li {
+    flex-basis: 30%;
+  }
+    /*
     justify-content: left;
     padding: 20px;
     border-right: 20px;
     margin-right: auto;
-    max-width: 25%;
+    flex-basis: auto;
 
   }
-  nav ul {
-    display: inline-block;
+  */
+  /*nav ul {
+    display: flex;
     justify-content: flex-end;
     align-self: center;
 
+}*/
 
-  }
-  nav li {
-    display: inline-flex;
+
+    /*display: inline-flex;
     flex-basis: 50%;
     margin-left: .65em;
     margin-right: .65em;
@@ -228,9 +234,9 @@ a:link {
     margin-top: 0 auto;
     background: #ffff;
     text-align: left;
-    border-radius: 70%;
+    border-radius: 70%; */
 
-}
+
 #portfolio div {
   flex-basis: 25%;
   padding: 10px;
