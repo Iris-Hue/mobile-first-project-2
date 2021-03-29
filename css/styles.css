@@ -69,8 +69,7 @@ nav li {
 #back {
   padding:1px;
   border: 1px;
-  margin: 20px 10px 10px 5px
-
+  margin: 20px 10px 10px 5px;
 
 }
 
@@ -200,8 +199,9 @@ a:link {
 @media (min-width: 1024px) {
 
   h1,
-  nav ul {
-    display: flex;
+  nav ul, {
+    display: inline-flex;
+
   }
 
   h1 {
@@ -220,7 +220,8 @@ a:link {
 
   }
   nav li {
-    display: inline-block;
+    display: inline-flex;
+    flex-basis: 50%;
     margin-left: .65em;
     margin-right: .65em;
     padding: 1px 0px;
